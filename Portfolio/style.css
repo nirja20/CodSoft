@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+    color: black;
+}
+
+.header{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 40px 20px;
+}
+
+.header h1{
+    text-shadow: 0px 0px 5px rgb(148, 232, 23);
+}
+
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.About img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.skills{
+    background: whitesmoke;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.skills ul{
+    padding: 0;
+}
+
+.skills li{
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.skills li:hover {
+    background: red;
+}
+
+.projects{
+    padding: 40px 20px;
+    background: white;
+    text-align: center;
+}
+
+.project-block{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 2px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.project-block img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.resume{
+    background: whitesmoke;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.resume-button{
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 3s;
+}
+
+.resume-button:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px 2px red;
+    text-decoration: underline;
+}
+
+.contact{
+    padding: 30px 20px;
+    background: white;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.email-link {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
